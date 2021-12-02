@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31/05/2020, 03:29:11 PM
+    Author     : KEVIN
+*/
+
+.texto{
+    border: 1px solid #333;
+    font-size: 1.2em;
+    margin-top:1rem;
+    padding: 10px;
+    font-size:1em;
+    height: 1.5em;
+}
+
+.texto:hover{
+    color:white;
+    background: #333;
+    border: 1px solid white;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+    font-size: 1rem;
+}
+
+
+.dir:hover {
+    color:white;
+    background: #333;
+    border: 1px solid white;
+    width: 90%;
+}
+
+.dir {
+    width: 90%;
+    height: 10rem;
+    font-size: 1.2em;
+    padding: 1em;
+    padding-top: 0.5em;
+}
+
+/*---*/
+
+.boton{
+    border: 1px solid black;
+    font-size: 1.2em;
+    margin-top:1rem;
+    font-weight: bold;
+    
+    height: 2em;
+    padding: 1em;
+    padding-top: 0.5em;
+}
+
+.boton:hover{
+    color:white;
+    background: black;
+    border: 1px solid white;
+}
+
+input{
+    border: 1px solid black;
+    margin-top:1rem;
+    
+}
+input:hover{
+    color:white;
+    background: black;
+    border: 1px solid white;
+}

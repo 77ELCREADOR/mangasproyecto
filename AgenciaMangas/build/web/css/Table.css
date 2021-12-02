@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31/05/2020, 04:33:15 PM
+    Author     : KEVIN
+*/
+
+         thead{
+            color:white;
+            text-align: center;
+        }
+        .contener{
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .centro{
+            text-align: center;
+        }
+        
+        table{
+	background-color: white;
+	border-collapse: collapse;
+	width: 60%;
+        text-align: center;
+        }
+
+th, td{
+	padding: 10px;
+        font-size: 1.2em;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: black;
+	color: white;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+    font-size: 2rem;
+}
+
+li{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.Misdatos{
+    width: 1000px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-right:auto;
+    margin-left:auto;   
+}
+.Misdatos:hover{
+      background: white;
+      border: 3px solid black;
+}
+
+.subdatos{
+    text-align: left;
+}
+
+
+.margen{
+   border: 3px dashed white;
+   padding: 10px;
+   background-color: black;
+}
+.margen:hover{
+   border: 3px dashed black;
+   padding: 10px;
+   background: white;
+   color: black;
+}
+
+.color1{
+    margin-top: 20px;
+    max-width: 870px;
+    width: 55rem;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    padding:20px;
+    border: 3px solid black;
+}
+.color1{
+    background: black;
+}
+
+.color1:hover{
+    background: white;
+}

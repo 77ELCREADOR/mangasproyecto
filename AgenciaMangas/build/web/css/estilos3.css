@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/04/2020, 06:15:24 PM
+    Author     : bocal
+*/
+.is{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 600px;
+    margin-left: 22rem;
+    height: 600px;
+    margin-top: 3rem;
+    font-family: Impact;
+    
+}
+table.tab{
+    text-align: left;
+}
+.tab{
+    text-align: left;
+}
+form.tab{
+    margin-left: 120px;
+}
+a{
+    color: #969A97;
+}
+
+
+
