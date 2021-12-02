@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/04/2020, 07:36:09 PM
+    Author     : bocal
+*/
+.contenedor{
+    text-align: center;
+}
+header{
+    margin-left: 12em;
+    display: inline-block;
+}
+section{
+    font-family: Comic Sans;
+    font-size: 20pt;
+    width: 1000px;
+    margin-left: 6.5em;
+}
+article{
+    width: 430px;
+    border: 2px;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 15pt;
+    font-family: Impact;
+    background-color: black;
+    color: white;
+}
+a{
+    color: #969A97;
+}
+
+

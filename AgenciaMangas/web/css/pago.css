@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31/05/2020, 06:18:05 PM
+    Author     : KEVIN
+*/
+
+.overlay{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+    font-size: 1rem;
+}
+
+.color3{
+    margin-top: 20px;
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    padding:20px;
+    border: 3px solid black;
+    background: black;
+    font-size: 1.5rem;
+}
+
+.color3:hover{
+    background: white;
+}
+
+
+.cuadro{
+    margin-top: 20px;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    padding:20px;
+    border: 3px solid black;
+    background: black;
+    font-size: 1.5rem;
+}
+
+.cuadro:hover{
+    background: white;
+}
+
+.color2{
+    margin-top: 20px;
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    padding:20px;
+    border: 3px solid black;
+    background: black;
+    font-size: 1.5rem;
+}
+
+.color2:hover{
+    background: white;
+}
+
+.margen{
+   border: 3px dashed white;
+   padding: 10px;
+   background-color: black;
+}
+.margen:hover{
+   border: 3px dashed black;
+   padding: 10px;
+   background: white;
+   color: black;
+}
+
+.centro{
+    text-align: center;
+}
+
+input{
+    border: 1px solid black;
+    margin-top:1rem;
+    
+}
+input:hover{
+    color:white;
+    background: black;
+    border: 1px solid white;
+}
+
+.input{
+    border: 1px solid black;
+    margin-top:1rem;
+    height: 2rem;
+    width:9rem;
+}
+.input:hover{
+    color:white;
+    background: black;
+    border: 1px solid white;
+}
+
+.boton2{
+    border: 1px solid black;
+    margin-top:1rem;
+    font-weight: bold;
+    padding: 1rem;
+    height: 2em;
+    font-size: 1.1rem;
+    padding-top: 0.5em;
+}
+.boton2:hover{
+    color:white;
+    background: black;
+    border: 1px solid white;
+}
+li {
+    list-style:none;
+}
+    

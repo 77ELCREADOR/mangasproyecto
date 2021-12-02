@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/05/2020, 08:33:41 PM
+    Author     : bocal
+*/
+body{
+    align-items: center;
+    text-align: center;
+    color:white;
+    font-size: 100%;
+    margin-top:5rem;
+}
+
+.color{
+    background: black;
+    color: white;
+    padding: 20px;
+}
+.color:hover{
+      background: white;
+      border: 3px solid black;
+}
+
+.margen{
+   border: 3px dashed white;
+   padding: 10px;
+   background-color: black;
+}
+.margen:hover{
+   border: 3px dashed black;
+   padding: 10px;
+   background: white;
+   color: black;
+}
+
+#bloque1{
+    width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 20px;
+    display: block;
+    font-family: Tahoma;
+    font-size: 50px;
+  
+}
+
+.mensaje{
+    font-size: 4rem;
+}
+
+
+label{
+     line-height: 1em;
+     font-size: 30px;
+}
+
+.boton{
+    color:black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1em;
+    height: 2.4em;
+    padding: 1em;
+    padding-top: 0.5em;
+    width: 223px;
+    font-family: Comic Sans MS;
+}
+
+.boton:hover{
+    color:white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+input{
+    font-size:1em;
+    height: 2em;
+    color:black;
+    margin-top:1rem; 
+}
+input:hover{
+    color:white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.centrado{
+    margin-left: auto;
+    margin-right:auto; 
+}
+section {
+    margin-top: 2rem;
+    width: 1000px;
+}
+article h3{
+    font-family: Comic Sans MS;
+    font-size: 23pt;
+}
+article{
+    width: 450px;
+    height: 450px;
+    border: 2px;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-table;
+    font-size: 15pt;
+    font-family: Impact;
+    background-color: black;
+}
+
