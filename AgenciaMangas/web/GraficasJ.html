@@ -1,0 +1,136 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Graficas</title>
+<style type="text/css">
+table td {
+  text-align: center;
+}
+.contenedor{
+   width: 1000px;
+   margin-left:5rem;
+   margin-top:3rem;
+}
+.datos{
+   width:90px;
+   text-align:center;
+}
+</style>
+<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+
+<link rel='stylesheet' type='text/css' href='css/morris.css'>  
+
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js'></script>
+
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'></script> 
+
+<script src='js/morris.min.js'></script>
+
+<script>    
+
+function grafica1(){
+  new Morris.Bar({
+  element: 'graph',
+  data: [{x:'idM: 1', y:3, z:1},
+{x:'idM: 2', y:1, z:2},
+{x:'idM: 3', y:2, z:3},
+{x:'idM: 4', y:4, z:4},
+{x:'idM: 5', y:4, z:5},
+{x:'idM: 6', y:3, z:6},
+{x:'idM: 7', y:2, z:7},
+{x:'idM: 8', y:2, z:8},
+{x:'idM: 9', y:5, z:9},
+{x:'idM: 10', y:1, z:10},
+{x:'idM: 11', y:1, z:11},
+{x:'idM: 12', y:1, z:12},
+{x:'idM: 13', y:1, z:13},
+{x:'idM: 14', y:2, z:14},
+{x:'idM: 15', y:1, z:15},
+{x:'idM: 16', y:2, z:16},
+{x:'idM: 17', y:1, z:17},
+{x:'idM: 18', y:2, z:18},
+{x:'idM: 19', y:2, z:19},
+{x:'idM: 20', y:2, z:20},
+],
+  xkey: 'x',
+  ykeys: ['y'],
+  labels: ['Cantidad: '],
+  axes:false,
+  resize:false,
+  barColors:['#A23E48']
+  });
+  new Morris.Bar({
+  element: 'graph2',
+  data: [{x:'idM: 1', y:3, z:1},
+{x:'idM: 2', y:1, z:2},
+{x:'idM: 3', y:2, z:3},
+{x:'idM: 4', y:4, z:4},
+{x:'idM: 5', y:4, z:5},
+{x:'idM: 6', y:3, z:6},
+{x:'idM: 7', y:2, z:7},
+{x:'idM: 8', y:2, z:8},
+{x:'idM: 9', y:5, z:9},
+{x:'idM: 10', y:1, z:10},
+{x:'idM: 11', y:1, z:11},
+{x:'idM: 12', y:1, z:12},
+{x:'idM: 13', y:1, z:13},
+{x:'idM: 14', y:2, z:14},
+{x:'idM: 15', y:1, z:15},
+{x:'idM: 16', y:2, z:16},
+{x:'idM: 17', y:1, z:17},
+{x:'idM: 18', y:2, z:18},
+{x:'idM: 19', y:2, z:19},
+{x:'idM: 20', y:2, z:20},
+],
+  xkey: 'x',
+  ykeys: ['y'],
+  labels: ['Cantidad: '],
+  axes:false,
+  resize:false,
+  barColors:['#A23E48']
+  });
+  new Morris.Bar({
+  element: 'graph3',
+  data: [{x:'idM: 1', y:3, z:1},
+{x:'idM: 2', y:1, z:2},
+{x:'idM: 3', y:2, z:3},
+{x:'idM: 4', y:4, z:4},
+{x:'idM: 5', y:4, z:5},
+{x:'idM: 6', y:3, z:6},
+{x:'idM: 7', y:2, z:7},
+{x:'idM: 8', y:2, z:8},
+{x:'idM: 9', y:5, z:9},
+{x:'idM: 10', y:1, z:10},
+{x:'idM: 11', y:1, z:11},
+{x:'idM: 12', y:1, z:12},
+{x:'idM: 13', y:1, z:13},
+{x:'idM: 14', y:2, z:14},
+{x:'idM: 15', y:1, z:15},
+{x:'idM: 16', y:2, z:16},
+{x:'idM: 17', y:1, z:17},
+{x:'idM: 18', y:2, z:18},
+{x:'idM: 19', y:2, z:19},
+{x:'idM: 20', y:2, z:20},
+],
+  xkey: 'x',
+  ykeys: ['y'],
+  labels: ['Cantidad: '],
+  axes:false,
+  resize:false,
+  barColors:['#A23E48']
+  });
+}
+</script>
+</head>
+<body onload='grafica1()'>
+<div class='contenedor'>
+<h1>Mangas comprados</<h1><br><br>
+<h3>Grafica mensual</h3><div id='graph'></div>
+<h3>Grafica quincenal</h3><div id='graph2'></div>
+<h3>Grafica semanal</h3><div id='graph3'></div>
+<a href="SesionAdmin.jsp">Regresar</a>
+</div>
+</body>
+</html>
